@@ -8,7 +8,6 @@ from .models import CustomUser
 
 @admin.register(CustomUser)
 class CustomUserAdmin(UserAdmin):
-    model = CustomUser
     list_display = ('email', 'is_active', 'is_staff', 'is_superuser')
     list_filter = ('email', 'is_active', 'is_staff', 'is_superuser')
     fieldsets = (
