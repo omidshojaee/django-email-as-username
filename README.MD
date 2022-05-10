@@ -10,4 +10,4 @@ To change that, we need to:
 ---
 # Warning
 
-You need to do this **BEFORE FIRST MIGRATION**. Switching user model in the middle of the project generates lots of errors and you have to modify all previous migrations manually and apply them again.
+You need to do this **BEFORE FIRST MIGRATION**. Switching user model in the middle of the project generates lots of errors and you have to modify previous migrations of **User** model manually and apply them again.
