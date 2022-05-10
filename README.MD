@@ -3,8 +3,8 @@
 By default, Django's User model uses **Username** as the primary identifier for authentication and **Email** is optional.
 To change that, we need to:
 
-- Create a custom `User Model` (models.py)
 - Subclass `BaseUserManager` (models.py)
+- Create custom `User Model` (models.py)
 - Substitue `User Model` (settings.py)
 - Customize `Admin site` (admin.py)
 ---
