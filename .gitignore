@@ -1,0 +1,23 @@
+# Python
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+*.pot
+db.sqlite3
+db.sqlite3-journal
+__pycache__/
+media/
+
+# Environment
+.env
+venv/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!*.code-workspace

@@ -1,0 +1,13 @@
+[tool.isort]
+profile = 'black'
+skip_gitignore = true
+extend_skip = ['settings.py', 'manage.py']
+extend_skip_glob = ['**/migrations/**', '**/__pycache__/**', 'venv/**', '**/__init__.py']
+default_section = 'THIRDPARTY'
+known_first_party = ['project']
+known_django = ['django']
+sections = ['FUTURE','STDLIB','DJANGO','THIRDPARTY','FIRSTPARTY','LOCALFOLDER']
+
+[tool.black]
+skip-string-normalization = true
+force-exclude = '''(manage.py|project\/|migrations\/)'''
